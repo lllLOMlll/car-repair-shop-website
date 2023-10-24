@@ -1,0 +1,347 @@
+/***************************************************************************************************************
+ *********************************************   RESET!!!!! ****************************************************
+ **************************************************************************************************************/ 
+
+/* HTML elements */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Additional basic styles for better usability */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #e6e6e6;
+}
+
+/***************************************************************************************************************
+ *********************************************   GENERAL ********************************************************
+ **************************************************************************************************************/
+h1, h2, h3 {
+	color: #f2c318;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+h4 {
+	color: #a62333;
+}
+
+h6 {
+	color: #f2c318;
+	text-transform: uppercase;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+i {
+	margin-bottom: 10px;
+}
+
+/* TABLE
+/* Title of the table. Color = Red */
+th {
+	color: #a62333;
+	font-size: 1.4em;
+}
+/* Bold text */
+td {
+	font-weight: bold;
+}
+
+video {
+	width: 100%;
+}
+
+iframe {
+	width: 100%;
+}
+
+.background-red {
+	background-color: #a62333;
+}
+
+.background-yellow {
+	background-color: #f2c318;
+}
+
+/* Car icon getting bigger */
+  .navbar-brand i {
+    transition: transform 0.3s;
+  }
+
+  .navbar-brand:hover i {
+    transform: scale(1.2);
+  }
+
+/***************************************************************************************************************
+ *********************************************   NAVIGATION BAR ************************************************
+ **************************************************************************************************************/ 
+.bg-custom {
+	background-color: #f2c318; /* Yellow */
+}
+
+/* Color of the text in the navigation bar */
+.navbar-light .navbar-nav .nav-link {
+	color: #000;
+}
+
+.nav-item a:hover {
+	color: white !important;
+}
+
+
+
+/***************************************************************************************************************
+ *********************************************   FOOTER ********************************************************
+ **************************************************************************************************************/ 
+footer {
+	color : white;
+	background-color: 	#333333;
+}
+
+a:hover .logo-footer {
+	transform: scale(1.4); /* Makes the icon 10% bigger */
+}
+
+.footer-hyperlink {
+	color: #f2c318;  /* Yellow */      
+	text-decoration: none; 
+}
+
+/* Change color on hover */
+.footer-hyperlink:hover {
+	color: #a62333 !important;
+}
+
+
+/* Don't change color when the link is visited */
+.footer-hyperlink:visited {
+	color: #f2c318;
+}
+
+
+/***************************************************************************************************************
+ *********************************************   ACCEUIL **************************************************
+ **************************************************************************************************************/ 
+.modal-text {
+	color: #f2c318;
+}
+
+.custom-modal-background {
+    background-color: #a62333; /* Red */
+}
+
+.email-link {
+    color: black; 
+    text-decoration: none;
+}
+
+.email-link:hover {
+    color: #f2c318; 
+}
+
+.majorSoft-link{
+    color: black; 
+    text-decoration: none;
+}
+.majorSoft-link:hover {
+	 color: #a62333;
+}
+
+.majorSoft-text {
+	font-size: 12px;
+}
+
+
+
+/***************************************************************************************************************
+ *********************************************   À PROPOS **************************************************
+ **************************************************************************************************************/ 
+.image-equipe {
+	width: 20%;
+}
+
+
+/***************************************************************************************************************
+ *********************************************   SERVICES **********************************************************
+ **************************************************************************************************************/
+.image-conseils {
+	width: 70%;
+}
+
+.image-conseils2 {
+	width: 50%;
+}
+
+.image-conseils3 {
+	width: 40%;
+}
+/***************************************************************************************************************
+ *********************************************   GALLERIE **************************************************
+ **************************************************************************************************************/ 
+/* Ajusting the size of the carousel */
+.owl-carousel {
+	max-width: 70%; /* Adjust this to control the width of the carousel */
+	margin: 0 auto; /* This centers the carousel */
+}
+
+.owl-carousel .item img {
+	width: 100%;
+	height: auto;
+}
+
+/* Changing the color of the elements of the carousel
+/* Change the color of the navigation arrows */
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+	color: #f2c318; /* Set the color of the arrows */
+}
+
+/* Change the color of the navigation arrows */
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+	color: #f2c318; /* Set the color of the arrows */
+	font-size: 35px; /* Make the arrow icons bigger */
+	padding: 15px; /* Add padding around the arrows to make the background bigger */
+/*    background-color: #000; /* Set the background color of the arrows */
+}
+
+/* Change the color of the bullets/dots */
+.owl-carousel .owl-dots .owl-dot span {
+	background-color: #f2c318; /* Set the color of the bullets/dots */
+}
+
+
+
+
+
+/***************************************************************************************************************
+ *********************************************   NOUS JOINDRE **************************************************
+ **************************************************************************************************************/ 
+.image-garage {
+	width: 55%;
+}
+
+.image-bibliotheque {
+	width: 60%;
+}
+
+.centered-table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centered-table th, .centered-table td {
+	padding: 0 20px; /* Adjust the 20px value to increase or decrease space */
+}
+
+.hyperlink-mail {
+	color: #000;  /* Yellow */      
+	text-decoration: none; 
+}
+
+.hyperlink-mail:hover {
+	color: #a62333 !important;
+}
+
+.hyperlink-mail:visited {
+	color: #f2c318;
+}
+
+/***************************************************************************************************************
+ *********************************************   FORM **********************************************************
+ **************************************************************************************************************/
+form{
+	width: 80%;
+	margin: 100px auto; 
+}
+
+label {
+    width: 200px;
+}
+
+form input[type="text"] {
+	width: 290px!important;
+}
+
+form input[type="number"] {
+    width: 290px!important;
+}
+
+form input[type="password"] {
+    width: 290px!important;
+}
+
+form input[type="email"] {
+	width: 290px!important;
+}
+
+span {
+    width: 370px;
+    float: right;
+    border: 1px solid #ced4da;
+    margin-left: 20px;
+    border-radius: 5px;
+    display: none;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+
+/* No arrows in the age input box */
+#age::-webkit-inner-spin-button,
+#age::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.submit-button{
+	color: #f2c318;
+}
+
+
+
+
